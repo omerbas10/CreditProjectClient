@@ -1,13 +1,91 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* navbar */
+.custom-navbar {
+  background-color: #a9bdc0;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #5d5b56;
+}
+
+/* search page */
+.form-control {
+  text-align: right;
+}
+.form-label {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  text-align: right;
+}
+
+.form-check {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.form-check-input {
+  margin-left: 0.5rem;
+}
+
+.small-input {
+  max-width: 200px;
+  margin-left: auto;
+}
+
+.card-img {
+  width: 20%;
+}
+
+.card {
+  width: 70%;
+  text-align: right;
+}
+
+/* cardpage */
+.cardpage {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.alert.hide {
+  opacity: 0;
+}
+
+.alert.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* link */
+.center-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: black;
+}
+
+/* login */
+.login {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
 }
