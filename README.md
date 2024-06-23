@@ -5,4 +5,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 
-user: admin password : admin1234
+user: admin
+password : admin1234
