@@ -1,6 +1,5 @@
 Credit project client
 
-npm start
   run on port 3000
 
 
